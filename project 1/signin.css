@@ -1,0 +1,75 @@
+*{
+    font-family: monospace;
+}
+body{
+    background-image: url(Firefly\ a\ background\ to\ design\ a\ food\ website\ 29891.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.total{
+    position: absolute;
+    top: 25%;
+    right: 35%;
+    border: none;
+    outline: none;
+    border: 4px solid transparent;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, .2);
+    backdrop-filter: blur(4.5px);
+    width: 400px;
+    height: 200px;
+    padding: 100px 20px 20px 100px;
+}
+.head{
+    position: relative;
+    left: 15%;
+    bottom: 55%;
+}
+.head h1{
+    font-size: xxx-large;
+    color: rgb(0, 0, 0);
+}
+.input{
+    position: relative;
+    bottom: 90px;
+}
+.number{
+    border: none;
+    outline: none;
+    border: 1px solid ;
+    border-radius: 30px;
+    margin: 20px;
+}
+input{
+    background-color: transparent;
+    border:none;
+    outline: none;
+    width: 100%;
+    height: 40px;
+    padding-left: 40px;
+    color: black;
+}
+input::placeholder{
+    padding: 10px;
+    color: black;
+    border: none;
+}
+.remember{
+    position: relative;
+    bottom: 20px;
+    font-size: x-large;
+}
+.remember input{
+    position: relative;
+    top: 20px;
+    left: 350px;
+    height: 30px;
+    width: 30px;
+}
+.btn button{
+    position: relative;
+    left: 40px;
+    width: 150px;
+    height: 30px;
+    border-radius: 30px;
+}
